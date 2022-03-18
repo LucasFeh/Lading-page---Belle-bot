@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+.header img{
+  height: 72px;
+}
+.menu-header{
+  display: flex;
+  gap: 32px;
+}
+.menu-header a{
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFF2E7;
+}
+
+.descricao{
+  margin-bottom: 48px;
+  border-top: 0.4px solid #a58f7e;
+}
+
+.descricao-principal{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.descricao-principal-titulo{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.descricao-principal-titulo h1{
+  text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  font-family: 'Righteous', cursive;
+  color: #FFF2E7;
+  font-weight: 400;
+  font-size: 64px;
+}
+.descricao-principal-titulo h2{
+  color: #ECD6C4;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400px;
+  font-size: 24px;
+
+}
+.descricao-principal-titulo button{
+  width: 180px;
+  height: 60px;
+  background: #ECD6C4;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Sarala';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 39px;
+text-align: center;
+
+color: #2F2325;
+
+}
+.descricao-principal img{
+  height: 430px;
+}
+.descricao-secundaria{
+display: flex;
+align-items: center;
+flex-direction:column;
+gap: 24px;
+margin-top: 48px;
+}
+.descricao-secundaria h3{
+  border-top: 0.4px solid #FFF2E7;
+  padding-top: 48px;
+  color: #FFF2Ef;
+  font-family: 'Righteous', cursive;
+  font-weight: 400px;;
+  font-size: 24px;
+  margin-bottom: 16px;
+
+}
+.descricao-secundaria p{
+  color: #ECD6C4;
+  font-family: 'Righteous', cursive;
+  font-weight: 300px;;
+  font-size: 18px;
+}
+.footer{
+  padding: 32px;
+  display: flex;
+  border-top: 0.4px solid #FFF2E7;
+  align-items: center;
+}
+.footer img{
+  display: block;
+  margin: 0 auto;
+}
+.descricao-principal-titulo button:hover{
+  background: #ad8f76;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
